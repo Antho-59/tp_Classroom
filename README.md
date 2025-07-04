@@ -38,6 +38,14 @@ La découverte de services est assurée par Eureka Server, tandis que Spring Clo
 
 Chaque microservice s’enregistre automatiquement auprès d’Eureka et communique via des API REST synchrones.
 
+n'oubliez pas que les micro service ont été testé avec une BDD en interne, il vous faudra donc les lier aux votres dans le dossier application.propperties de cette facon :
+
+
+spring.datasource.url=jdbc:mysql://localhost/VOTRE BDD
+spring.datasource.username= #######
+spring.datasource.password= #######
+spring.jpa.hibernate.ddl-auto=update
+
 
 ---
 
