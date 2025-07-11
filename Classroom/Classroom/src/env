@@ -1,0 +1,5 @@
+DB_HOST=db
+DB_PORT=8082
+DB_NAME=classroom
+DB_USER=root
+DB_PASSWORD=1234
